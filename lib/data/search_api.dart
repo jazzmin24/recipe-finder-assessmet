@@ -5,7 +5,7 @@ import 'package:recipe_finder_assessment/models/search_model.dart';
 
 class RecipeAPIService {
   final String _baseUrl = 'https://api.spoonacular.com';
-  final String _apiKey = 'a00f00a49e0449209e4f9b58c4cbcd27';
+  final String _apiKey = '53f0acf39cdb4250b5ff84161e1a2f08';
 
   Future<List<SearchModel>> findRecipesByQuery(String query) async {
     final response = await http.get(Uri.parse(

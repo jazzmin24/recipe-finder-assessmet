@@ -3,7 +3,7 @@ import 'package:http/http.dart' as http;
 import 'package:recipe_finder_assessment/models/recipe_model.dart';
 
 Future<List<Recipe>> fetchRecipesByDiet(String diet) async {
-  final apiKey = 'a00f00a49e0449209e4f9b58c4cbcd27';
+  final apiKey = '53f0acf39cdb4250b5ff84161e1a2f08z';
   final url = Uri.https('api.spoonacular.com', '/recipes/complexSearch', {
     'diet': diet,
     'apiKey': apiKey,
